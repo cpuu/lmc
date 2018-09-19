@@ -1,5 +1,5 @@
 
-# Project Title
+# lmc - Linux Memory Capturer 
 
 Linux Memory Grabber - A script for dumping Linux memory and creating Volatility(TM) profiles.
 
