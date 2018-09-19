@@ -25,22 +25,22 @@ cpuu@ubuntu:~$ sudo -H pip install --upgrade pip
 cpuu@ubuntu:~$ sudo -H pip install distorm3 pycrypto openpyxl Pillow
 ```
 
-### Installing
+### Install
 
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
 
 ```
-cpuu@ubuntu:~$ git clone https://github.com/cpuu/lmg.git
-cpuu@ubuntu:~$ cd lmg
-cpuu@ubuntu:~/lmg$ sudo ./setup.sh
+cpuu@ubuntu:~$ git clone https://github.com/cpuu/lmc.git
+cpuu@ubuntu:~$ cd lmc
+cpuu@ubuntu:~/lmc$ sudo ./setup.sh
 ```
 
 And repeat
 
 ```
-cpuu@ubuntu:~/lmg$ sudo ./lmg
+cpuu@ubuntu:~/lmc$ sudo ./lmc
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
@@ -49,10 +49,10 @@ End with an example of getting some data out of the system or using it for a lit
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
+### Analysis
 
 Explain what these tests test and why
 
 ```
-Give an example
+cpuu@ubuntu:~/lmc/volatility$ python vol.py --conf-file=../capture/osboxes-2018-09-18_21.41.50/volatilityrc linux_pslist
 ```
