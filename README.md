@@ -45,7 +45,7 @@ cpuu@ubuntu:~/lmc$ sudo ./lmc
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## analysing Memory dump
+## Analysing Memory dump
 
 Explain how to run the automated tests for this system
 
