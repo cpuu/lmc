@@ -46,6 +46,54 @@ Two questions will be asked.
 * Compile profile for this system? [N|y] 
 
 If this is your first time, select 'y' for both.
+> osboxes@osboxes:~/lmc$ sudo ./lmc
+Try to build LiME kernel module? [N|y] y
+make -C /lib/modules/4.15.0-34-generic/build M="/home/osboxes/lmc/lime/src" modules
+make[1]: Entering directory '/usr/src/linux-headers-4.15.0-34-generic'
+Makefile:976: "Cannot use CONFIG_STACK_VALIDATION=y, please install libelf-dev, libelf-devel or elfutils-libelf-devel"
+  CC [M]  /home/osboxes/lmc/lime/src/tcp.o
+  CC [M]  /home/osboxes/lmc/lime/src/disk.o
+  CC [M]  /home/osboxes/lmc/lime/src/main.o
+  CC [M]  /home/osboxes/lmc/lime/src/hash.o
+  LD [M]  /home/osboxes/lmc/lime/src/lime.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/osboxes/lmc/lime/src/lime.mod.o
+  LD [M]  /home/osboxes/lmc/lime/src/lime.ko
+make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-34-generic'
+strip --strip-unneeded lime.ko
+mv lime.ko lime-4.15.0-34-generic-x86_64.ko
+LiME module is /home/osboxes/lmc/lime/src/lime-4.15.0-34-generic-x86_64.ko
+Dumping memory in "lime" format to /home/osboxes/lmc/capture/osboxes-2018-09-18_22.03.28
+This could take a while...Done!
+Cleaning up...Done!
+Grabbing a copy of /bin/bash...Done!
+Writing volatilityrc to /home/osboxes/lmc/capture/osboxes-2018-09-18_22.03.28...Done!
+Compile profile for this system? [N|y] y
+make -C //lib/modules/4.15.0-34-generic/build M="/home/osboxes/lmc/volatility/tools/linux" clean
+make[1]: Entering directory '/usr/src/linux-headers-4.15.0-34-generic'
+make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-34-generic'
+rm -f module.dwarf
+make -C //lib/modules/4.15.0-34-generic/build CONFIG_DEBUG_INFO=y M="/home/osboxes/lmc/volatility/tools/linux" modules
+make[1]: Entering directory '/usr/src/linux-headers-4.15.0-34-generic'
+Makefile:976: "Cannot use CONFIG_STACK_VALIDATION=y, please install libelf-dev, libelf-devel or elfutils-libelf-devel"
+  CC [M]  /home/osboxes/lmc/volatility/tools/linux/module.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+WARNING: modpost: missing MODULE_LICENSE() in /home/osboxes/lmc/volatility/tools/linux/module.o
+see include/linux/module.h for more information
+  CC      /home/osboxes/lmc/volatility/tools/linux/module.mod.o
+  LD [M]  /home/osboxes/lmc/volatility/tools/linux/module.ko
+make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-34-generic'
+dwarfdump -di module.ko > module.dwarf
+make -C //lib/modules/4.15.0-34-generic/build M="/home/osboxes/lmc/volatility/tools/linux" clean
+make[1]: Entering directory '/usr/src/linux-headers-4.15.0-34-generic'
+  CLEAN   /home/osboxes/lmc/volatility/tools/linux/.tmp_versions
+  CLEAN   /home/osboxes/lmc/volatility/tools/linux/Module.symvers
+make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-34-generic'
+  adding: module.dwarf (deflated 89%)
+  adding: boot/System.map-4.15.0-34-generic (deflated 79%)
+
 
 ## Analysing Memory dump
 
