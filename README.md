@@ -150,10 +150,9 @@ cpuu@ubuntu:~/lmc/volatility$ python vol.py --conf-file=../capture/osboxes-2018-
 [... more output not shown ...]
 
 ## Other plug-ins
-\More information about other plug-ins can be found in the official homepage document below.
-[Linux Command Reference](https://github.com/volatilityfoundation/volatility/wiki/Linux-Command-Reference)
-\Below is the book by Andrew case, the developer of volatility.
-[Ligh, Michael Hale, et al. The art of memory forensics: detecting malware and threats in windows, linux, and Mac memory. John Wiley & Sons, 2014.](https://news.asis.io/sites/default/files/The%20Art%20of%20Memory%20Forensics.pdf)
+More information about other plug-ins can be found in the official homepage document below.
+* [Linux Command Reference](https://github.com/volatilityfoundation/volatility/wiki/Linux-Command-Reference)
+* [Ligh, Michael Hale, et al. The art of memory forensics: detecting malware and threats in windows, linux, and Mac memory. John Wiley & Sons, 2014.](https://news.asis.io/sites/default/files/The%20Art%20of%20Memory%20Forensics.pdf)
 
 # Built With
 * [LiME](https://github.com/504ensicsLabs/LiME) - Linux Memory Extractor
