@@ -112,7 +112,7 @@ PLUGINS=/home/osboxes/lmc/capture/osboxes-2018-09-18_22.03.28
 PROFILE=Linuxosboxes-2018-09-18_22_03_28-profilex64
 LOCATION=file:////home/osboxes/lmc/capture/osboxes-2018-09-18_22.03.28/osboxes-2018-09-18_22.03.28-memory.lime
 ```
-When you run volatility, you can specify `--conf-file = ../capture/osboxes-2018-09-18_22.03.28/volatilityrc` and execute the desired plug-in.
+When you run volatility, you can specify `--conf-file=../capture/osboxes-2018-09-18_22.03.28/volatilityrc` and execute the desired plug-in.
 
 ### linux_banner
 ```
