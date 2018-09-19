@@ -10,7 +10,7 @@ cpuu (cpuu@icloud.com), 2018-09-19 \
 Since Hal Pomeranz's code has not been updated for more than 5 years, I've made some changes and simplified the complexity of the installation process. \
 My Blog post : https://cpuu.postype.com 
 
-\
+
 
 # Getting Started
 
