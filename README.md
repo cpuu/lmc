@@ -98,6 +98,16 @@ make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-34-generic'\
   adding: module.dwarf (deflated 89%)\
   adding: boot/System.map-4.15.0-34-generic (deflated 79%)\
 
+Everything else is automated.  After the script runs, you will have a new directory on the thumb drive named `.../capture/<hostname>-YYYY-MM-DD_hh.mm.ss`
+the directory will contain:
+| filename | description |
+| -------- | -------- |
+| <hostname>-YYYY-MM-DD_hh.mm.ss-memory.lime   | the RAM capture   |
+| <hostname>-YYYY-MM-DD_hh.mm.ss-profile.zip  | Volatility(TM) profile   |
+| <hostname>-YYYY-MM-DD_hh.mm.ss-bash  | copy of target's /bin/bash   |
+|  volatilityrc    | prototype Volatility config file  |
+
+
 
 # Analysing Memory dump
 At the end of the capture, you can see that the *capture* directory is created.
@@ -107,7 +117,7 @@ osboxes@osboxes:~/lmc/capture$ cd osboxes-2018-09-18_22.03.28/
 osboxes@osboxes:~/lmc/capture/osboxes-2018-09-18_22.03.28$ ls -l volatilityrc 
 -rw-r--r-- 1 root root 235 Sep 18 22:04 volatilityrc
 ```
-There is a file called `volatilityrc`. This file will help you configure your environment in volatility.
+There is a file called `volatilityrc`. This file defines the appropriate locations for the captured memory and plugin.
 ```
 osboxes@osboxes:~/lmc/capture/osboxes-2018-09-18_22.03.28$ cat volatilityrc 
 [DEFAULT]
