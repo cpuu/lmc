@@ -36,8 +36,7 @@ cpuu@ubuntu:~$ git clone https://github.com/cpuu/lmc.git
 cpuu@ubuntu:~$ cd lmc
 cpuu@ubuntu:~/lmc$ sudo ./setup.sh
 ```
-
-And repeat
+### Capturing the Memory
 
 ```
 cpuu@ubuntu:~/lmc$ sudo ./lmc
