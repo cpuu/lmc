@@ -42,7 +42,10 @@ cpuu@ubuntu:~/lmc$ sudo ./setup.sh
 cpuu@ubuntu:~/lmc$ sudo ./lmc
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Two questions will be asked.
+* Try to build LiME kernel module? [N|y] 
+* Compile profile for this system? [N|y] 
+If this is your first time, select 'y' for both.
 
 ## Analysing Memory dump
 
