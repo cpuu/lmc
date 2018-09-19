@@ -100,8 +100,8 @@ make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-34-generic'\
 
 Everything else is automated.  After the script runs, you will have a new directory on the thumb drive named `.../capture/<hostname>-YYYY-MM-DD_hh.mm.ss`
 
-
 the directory will contain:
+
 | filename | description |
 | -------- | -------- |
 | hostname-YYYY-MM-DD_hh.mm.ss-memory.lime   | the RAM capture          |
