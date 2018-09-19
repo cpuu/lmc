@@ -1,8 +1,11 @@
 
 # Project Title
+
 Linux Memory Grabber - A script for dumping Linux memory and creating Volatility(TM) profiles.
 Hal Pomeranz (hal@deer-run.com), 2016-01-12
 https://github.com/halpomeranz/lmg
+[Hal Pomeranz. "Automating Linux Memory Capture." SANS DFIR Summit, 2014.](http://www.deer-run.com/~hal/AutomatingLinuxMemoryCapture.pdf)
+
 
 ## Getting Started
 
@@ -10,10 +13,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+It was tested on Ubuntu version 16.04, 17.10, and 18.04.
 
 ```
-Give examples
+cpuu@ubuntu:~$ sudo apt-get install yara
+cpuu@ubuntu:~$ sudo apt-get install python-pip
+cpuu@ubuntu:~$ sudo -H pip install --upgrade pip
+cpuu@ubuntu:~$ sudo -H pip install distorm3 pycrypto openpyxl Pillow
 ```
 
 ### Installing
