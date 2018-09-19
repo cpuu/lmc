@@ -99,6 +99,7 @@ make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-34-generic'\
   adding: boot/System.map-4.15.0-34-generic (deflated 79%)\
 
 Everything else is automated.  After the script runs, you will have a new directory on the thumb drive named `.../capture/<hostname>-YYYY-MM-DD_hh.mm.ss`
+
 the directory will contain:
 | filename | description |
 | -------- | -------- |
