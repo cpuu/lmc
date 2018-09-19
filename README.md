@@ -22,6 +22,7 @@ These instructions will get you a copy of the project up and running on your loc
 It was tested on Ubuntu version 16.04, 17.10, and 18.04.
 
 ```
+cpuu@ubuntu:~$ sudo apt-get install git
 cpuu@ubuntu:~$ sudo apt-get install yara
 cpuu@ubuntu:~$ sudo apt-get install python-pip
 cpuu@ubuntu:~$ sudo -H pip install --upgrade pip
