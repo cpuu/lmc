@@ -151,6 +151,6 @@ cpuu@ubuntu:~/lmc/volatility$ python vol.py --conf-file=../capture/osboxes-2018-
 
 
 # Built With
-* [LiME](https://github.com/504ensicsLabs/LiME) - LiME - Linux Memory Extractor
-* [volatility](https://github.com/volatilityfoundation/volatility) - volatility - An advanced memory forensics framework
+* [LiME](https://github.com/504ensicsLabs/LiME) - Linux Memory Extractor
+* [volatility](https://github.com/volatilityfoundation/volatility) - An advanced memory forensics framework
 * [dwarfdump](https://www.prevanders.net/dwarf.html) - DWARF is a debugging file format used by many compilers and debuggers to support source level debugging.
