@@ -27,9 +27,8 @@ cpuu@ubuntu:~$ sudo -H pip install distorm3 pycrypto openpyxl Pillow
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+The process of downloading and installing the script from github is as follows,
 
-Say what the step will be
 
 ```
 cpuu@ubuntu:~$ git clone https://github.com/cpuu/lmc.git
