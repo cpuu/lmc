@@ -10,7 +10,8 @@ cpuu (cpuu@icloud.com), 2018-09-19 \
 Since Hal Pomeranz's code has not been updated for more than 5 years, I've made some changes and simplified the complexity of the installation process. \
 My Blog post : https://cpuu.postype.com 
 
-
+\
+\
 # Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
