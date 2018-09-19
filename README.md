@@ -100,12 +100,20 @@ make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-34-generic'\
 
 Explain how to run the automated tests for this system
 
+### linux_banner
+```
+cpuu@ubuntu:~/lmc $ cd volatility/
+cpuu@ubuntu:~/lmc/volatility$ python vol.py --conf-file=../capture/osboxes-2018-09-18_22.03.28/volatilityrc linux_banner
+
+Volatility Foundation Volatility Framework 2.6
+Linux version 4.15.0-34-generic (buildd@lgw01-amd64-047) (gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3)) #37-Ubuntu SMP Mon Aug 27 15:21:48 UTC 2018 (Ubuntu 4.15.0-34.37-generic 4.15.18)
+```
+
 ### linux_pslist
 
 Explain what these tests test and why
 
 ```
-cpuu@ubuntu:~/lmc $ cd volatility/
 cpuu@ubuntu:~/lmc/volatility$ python vol.py --conf-file=../capture/osboxes-2018-09-18_22.03.28/volatilityrc linux_pslist
 ```
 ![alt text](screenshots/ubuntu18.png)
