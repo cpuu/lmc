@@ -11,11 +11,11 @@ Since Hal Pomeranz's code has not been updated for more than 5 years, I've made 
 My Blog post : https://cpuu.postype.com 
 \
 
-## Getting Started
+# Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+## Prerequisites
 
 It was tested on Ubuntu version 16.04, 17.10, and 18.04.
 
@@ -26,7 +26,7 @@ cpuu@ubuntu:~$ sudo -H pip install --upgrade pip
 cpuu@ubuntu:~$ sudo -H pip install distorm3 pycrypto openpyxl Pillow
 ```
 
-### Installing
+## Installing
 
 The process of downloading and installing the script from github is as follows,
 
@@ -36,7 +36,7 @@ cpuu@ubuntu:~$ git clone https://github.com/cpuu/lmc.git
 cpuu@ubuntu:~$ cd lmc
 cpuu@ubuntu:~/lmc$ sudo ./setup.sh
 ```
-### Capturing the Memory
+## Capturing the Memory
 
 ```
 cpuu@ubuntu:~/lmc$ sudo ./lmc
@@ -97,7 +97,7 @@ make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-34-generic'\
   adding: boot/System.map-4.15.0-34-generic (deflated 79%)\
 
 
-## Analysing Memory dump
+# Analysing Memory dump
 At the end of the capture, you can see that the *capture* directory is created.
 ```
 osboxes@osboxes:~/lmc$ cd capture/
@@ -115,7 +115,7 @@ LOCATION=file:////home/osboxes/lmc/capture/osboxes-2018-09-18_22.03.28/osboxes-2
 ```
 When you run volatility, you can specify `--conf-file=../capture/osboxes-2018-09-18_22.03.28/volatilityrc` and execute the desired plug-in.
 
-### linux_banner
+## linux_banner
 ```
 cpuu@ubuntu:~/lmc $ cd volatility/
 cpuu@ubuntu:~/lmc/volatility$ python vol.py --conf-file=../capture/osboxes-2018-09-18_22.03.28/volatilityrc linux_banner
@@ -124,7 +124,7 @@ Volatility Foundation Volatility Framework 2.6
 Linux version 4.15.0-34-generic (buildd@lgw01-amd64-047) (gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3)) #37-Ubuntu SMP Mon Aug 27 15:21:48 UTC 2018 (Ubuntu 4.15.0-34.37-generic 4.15.18)
 ```
 
-### linux_pslist
+## linux_pslist
 
 Explain what these tests test and why
 
