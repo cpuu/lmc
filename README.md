@@ -45,6 +45,7 @@ cpuu@ubuntu:~/lmc$ sudo ./lmc
 Two questions will be asked.
 * Try to build LiME kernel module? [N|y] 
 * Compile profile for this system? [N|y] 
+
 If this is your first time, select 'y' for both.
 
 ## Analysing Memory dump
