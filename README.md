@@ -117,3 +117,4 @@ Explain what these tests test and why
 cpuu@ubuntu:~/lmc/volatility$ python vol.py --conf-file=../capture/osboxes-2018-09-18_22.03.28/volatilityrc linux_pslist
 ```
 ![alt text](screenshots/ubuntu18.png)
+[... more output not shown ...]
