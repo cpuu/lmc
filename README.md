@@ -39,7 +39,7 @@ cpuu@ubuntu:~$ cd lmc
 cpuu@ubuntu:~/lmc$ sudo ./setup.sh
 ```
 ## Capturing the Memory
-
+Now, as root, run "sudo ./lmc".  This is interactive mode and the user will be prompted for confirmation before lmg builds a LiME module for the system and/or creates a Volatility(TM) profile.
 ```
 cpuu@ubuntu:~/lmc$ sudo ./lmc
 ```
@@ -130,6 +130,7 @@ LOCATION=file:////home/osboxes/lmc/capture/osboxes-2018-09-18_22.03.28/osboxes-2
 When you run volatility, you can specify `--conf-file=../capture/osboxes-2018-09-18_22.03.28/volatilityrc` and execute the desired plug-in.
 
 ## linux_banner
+Running linux_banner plugin to test capture, leveraging the prototype volatilityrc
 ```
 cpuu@ubuntu:~/lmc $ cd volatility/
 cpuu@ubuntu:~/lmc/volatility$ python vol.py --conf-file=../capture/osboxes-2018-09-18_22.03.28/volatilityrc linux_banner
