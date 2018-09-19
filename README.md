@@ -1,10 +1,15 @@
 
 # lmc - Linux Memory Capturer 
-
+## Original author
 Linux Memory Grabber - A script for dumping Linux memory and creating Volatility(TM) profiles.\
 Hal Pomeranz (hal@deer-run.com), 2016-01-12 \
 https://github.com/halpomeranz/lmg , [Hal Pomeranz. "Automating Linux Memory Capture." SANS DFIR Summit, 2014.](http://www.deer-run.com/~hal/AutomatingLinuxMemoryCapture.pdf) 
 
+## Modifier
+cpuu (cpuu@icloud.com), 2018-09-19 \
+Since Hal Pomeranz's code has not been updated for more than 5 years, I've made some changes and simplified the complexity of the installation process. \
+My Blog post : https://cpuu.postype.com 
+\
 
 ## Getting Started
 
