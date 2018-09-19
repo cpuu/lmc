@@ -25,7 +25,7 @@ cpuu@ubuntu:~$ sudo -H pip install --upgrade pip
 cpuu@ubuntu:~$ sudo -H pip install distorm3 pycrypto openpyxl Pillow
 ```
 
-### Install
+### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
@@ -45,11 +45,11 @@ cpuu@ubuntu:~/lmc$ sudo ./lmc
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## analysing Memory dump
 
 Explain how to run the automated tests for this system
 
-### Analysis
+### linux_pslist
 
 Explain what these tests test and why
 
