@@ -97,8 +97,22 @@ make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-34-generic'\
 
 
 ## Analysing Memory dump
-
-Explain how to run the automated tests for this system
+At the end of the capture, you can see that the *capture* directory is created.
+```
+osboxes@osboxes:~/lmc$ cd capture/
+osboxes@osboxes:~/lmc/capture$ cd osboxes-2018-09-18_22.03.28/
+osboxes@osboxes:~/lmc/capture/osboxes-2018-09-18_22.03.28$ ls -l volatilityrc 
+-rw-r--r-- 1 root root 235 Sep 18 22:04 volatilityrc
+```
+There is a file called `volatilityrc`. This file will help you configure your environment in volatility.
+```
+osboxes@osboxes:~/lmc/capture/osboxes-2018-09-18_22.03.28$ cat volatilityrc 
+[DEFAULT]
+PLUGINS=/home/osboxes/lmc/capture/osboxes-2018-09-18_22.03.28
+PROFILE=Linuxosboxes-2018-09-18_22_03_28-profilex64
+LOCATION=file:////home/osboxes/lmc/capture/osboxes-2018-09-18_22.03.28/osboxes-2018-09-18_22.03.28-memory.lime
+```
+When you run volatility, you can specify `--conf-file = ../capture/osboxes-2018-09-18_22.03.28/volatilityrc` and execute the desired plug-in.
 
 ### linux_banner
 ```
