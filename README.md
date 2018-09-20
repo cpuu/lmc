@@ -50,8 +50,8 @@ Two questions will be asked.
 * Compile profile for this system? [N|y] 
 
 If this is your first time, select 'y' for both.
-> cpuu@ubuntu:~/lmc$ sudo ./lmc\
->>**Try to build LiME kernel module? [N|y] y**\
+> cpuu@ubuntu:~/lmc$ sudo ./lmc
+>>**Try to build LiME kernel module? [N|y] y**
 >>>  make -C /lib/modules/4.15.0-34-generic/build M="/home/osboxes/lmc/lime/src" modules\
 make[1]: Entering directory '/usr/src/linux-headers-4.15.0-34-generic'\
 Makefile:976: "Cannot use CONFIG_STACK_VALIDATION=y, please install libelf-dev, libelf-devel or elfutils-libelf-devel"\
