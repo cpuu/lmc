@@ -142,7 +142,7 @@ Linux version 4.15.0-34-generic (buildd@lgw01-amd64-047) (gcc version 7.3.0 (Ubu
 
 ## linux_pslist
 
-Explain what these tests test and why
+This plugin prints the list of active processes starting from the init_task symbol and walking the `task_struct->tasks` linked list. It does not display the swapper process. If the DTB column is blank, the item is likely a kernel thread.
 
 ```
 cpuu@ubuntu:~/lmc/volatility$ python vol.py --conf-file=../capture/osboxes-2018-09-18_22.03.28/volatilityrc linux_pslist
