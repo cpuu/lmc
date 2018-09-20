@@ -16,13 +16,13 @@ My Blog post : https://cpuu.postype.com
 # Getting Started
 
 Here is an example of using the lmc tool, which includes using Volatility(TM) to analyze the captured image.
+It was tested on Ubuntu version 16.04, 17.10, and 18.04. and Kali Linux 2018.3
 
 ## Prerequisites
-
-It was tested on Ubuntu version 16.04, 17.10, and 18.04.
+The following preparations are necessary for smooth progress.
 
 ```
-cpuu@ubuntu:~$ sudo apt-get install git
+cpuu@ubuntu:~$ sudo apt-get install gcc git
 cpuu@ubuntu:~$ sudo apt-get install yara
 cpuu@ubuntu:~$ sudo apt-get install python-pip
 cpuu@ubuntu:~$ sudo -H pip install --upgrade pip
