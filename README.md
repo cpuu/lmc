@@ -115,14 +115,14 @@ the directory will contain:
 # Analysing Memory dump
 At the end of the capture, you can see that the *capture* directory is created.
 ```
-osboxes@osboxes:~/lmc$ cd capture/
-osboxes@osboxes:~/lmc/capture$ cd osboxes-2018-09-18_22.03.28/
-osboxes@osboxes:~/lmc/capture/osboxes-2018-09-18_22.03.28$ ls -l volatilityrc 
+cpuu@ubuntu:~/lmc$ cd capture/
+cpuu@ubuntu:~/lmc/capture$ cd osboxes-2018-09-18_22.03.28/
+cpuu@ubuntu:~/lmc/capture/osboxes-2018-09-18_22.03.28$ ls -l volatilityrc 
 -rw-r--r-- 1 root root 235 Sep 18 22:04 volatilityrc
 ```
 There is a file called `volatilityrc`. This file defines the appropriate locations for the captured memory and plugin.
 ```
-osboxes@osboxes:~/lmc/capture/osboxes-2018-09-18_22.03.28$ cat volatilityrc 
+cpuu@ubuntu:~/lmc/capture/osboxes-2018-09-18_22.03.28$ cat volatilityrc 
 [DEFAULT]
 PLUGINS=/home/osboxes/lmc/capture/osboxes-2018-09-18_22.03.28
 PROFILE=Linuxosboxes-2018-09-18_22_03_28-profilex64
