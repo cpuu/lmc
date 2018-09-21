@@ -40,7 +40,7 @@ cpuu@ubuntu:~$ cd lmc
 cpuu@ubuntu:~/lmc$ sudo ./setup.sh
 ```
 ## Capturing the Memory
-Now, as root, run "sudo ./lmc".  This is interactive mode and the user will be prompted for confirmation before lmg builds a LiME module for the system and/or creates a Volatility(TM) profile.
+Now, as root, run "sudo ./lmc".  This is interactive mode and the user will be prompted for confirmation before lmc builds a LiME module for the system and/or creates a Volatility(TM) profile.
 ```
 cpuu@ubuntu:~/lmc$ sudo ./lmc
 ```
