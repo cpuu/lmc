@@ -22,8 +22,9 @@ It was tested on Ubuntu version 16.04, 17.10, and 18.04. and Kali Linux 2018.3
 The following preparations are necessary for smooth progress.
 
 ```
-cpuu@ubuntu:~$ sudo apt-get install gcc git
-cpuu@ubuntu:~$ sudo apt-get install yara
+cpuu@ubuntu:~$ sudo apt-get install gcc build-essential git
+cpuu@ubuntu:~$ sudo apt-get install yara 
+cpuu@ubuntu:~$ sudo apt-get install linux-headers-`uname -r` 
 cpuu@ubuntu:~$ sudo apt-get install python-pip python-dev
 cpuu@ubuntu:~$ sudo -H pip install --upgrade pip
 cpuu@ubuntu:~$ sudo -H pip install distorm3 pycrypto openpyxl Pillow
